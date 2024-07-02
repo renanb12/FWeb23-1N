@@ -1,0 +1,276 @@
+/* Estilos para o texto informativo sobre o carrinho de compras */
+.carrinho {
+    background: url(../img/icons8-carrinho-de-compras-50.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: contain;
+}
+
+/* Estilos para o menu de opções */
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+/* Estilos gerais para o corpo do documento */
+body {
+    color: #333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Estilos para o container principal */
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+/* Estilos para o logo da empresa */
+.img_logo {
+    height: 100px;
+    width: 100px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    position: relative;
+    height: 20%;
+    border: 2px solid;
+}
+
+/* Estilos para a seção de busca */
+.buscar,
+.menu-conteudo {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+
+.buscar h2,
+.buscar form,
+.menu-conteudo h2 {
+    margin: 10px;
+}
+
+.menu-conteudo li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.buscar input {
+    vertical-align: middle;
+}
+
+.buscar input[type=search] {
+    width: 170px;
+}
+
+.destaque {
+    margin-top: 10px;
+}
+
+.menu-conteudo {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-conteudo a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-conteudo {
+    clear: left;
+}
+
+/* Estilos para os painéis */
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    width: 35%;
+}
+
+/* Estilos específicos para os painéis das aulas */
+.aula1 {
+    float: left;
+    background: linear-gradient(#f5dcdc, #bebef4);
+}
+
+.aula2 {
+    float: right;
+    background: linear-gradient(#dcdcf5, #f4bebe);
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+/* Estilos para o título dos painéis */
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Estilos para os links dentro dos painéis */
+.painel a {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 6px;
+    width: 100%;
+}
+
+/* Estilos para o container dentro do rodapé */
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Estilos para os ícones das redes sociais no rodapé */
+footer ul.social {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul.social li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer ul.social li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul.social li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o texto de direitos autorais no rodapé */
+footer p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a imagem de destaque */
+#foto_destaque {
+    width: 500px;
+    height: 250px;
+}
+
+/* Estilos para links no menu de opções quando hover */
+.menu-opcoes a:hover {
+    color: #007dc6;
+}
+
+/* Estilos para links no menu de opções quando ativo */
+.menu-opcoes a:active {
+    color: #867dc6;
+}
+
+/* Estilos para listas secundárias no menu de conteúdo */
+.menu-conteudo li ul {
+    display: none;
+}
+
+.menu-conteudo li:hover ul {
+    display: block;
+}
+
+.menu-conteudo ul li {
+    background-color: #dcdcdc;
+}
+
+.menu-conteudo li li a:before {
+    content: '- ';
+}
+
+/* Exemplo de estilização de primeira linha de parágrafo */
+:not(p)+p:first-line {
+    font-variant: small-caps;
+}
+
+/* Estilos adicionais para os painéis */
+.painel {
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #999;
+}
+
+.painel h2 {
+    text-shadow: 3px 3px 2px #FFF;
+}
+
+/* Estilos específicos para o botão de busca */
+.busca {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+/* Efeitos de hover para os itens nos painéis */
+.painel li:hover {
+    box-shadow: 0 0 5px #333;
+    transition: box-shadow 0.7s;
+}
+
+.painel li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 5px #333;
+    transition: 0.7s;
+}
+
+.painel li:hover {
+    transform: scale(1.2);
+}
+
+.painel li:hover {
+    transform: scale(1.2) rotate(-5deg);
+}
